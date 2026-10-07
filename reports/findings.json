@@ -1,0 +1,179 @@
+{
+  "rows_clean": 510898,
+  "rows_analysed": 504685,
+  "non_crime_records_excluded": 6213,
+  "date_range": [
+    "2016-07-01",
+    "2026-10-06"
+  ],
+  "pct_valid_coords": 95.1,
+  "pct_time_placeholder": 8.1,
+  "median_report_lag_hours": 0.22,
+  "monthly_mean": 4099,
+  "busiest_month": "October 2017 (4,916)",
+  "incidents_by_full_year": {
+    "2016": 27930,
+    "2017": 55672,
+    "2018": 53841,
+    "2019": 52024,
+    "2020": 44857,
+    "2021": 44478,
+    "2022": 48193,
+    "2023": 47345,
+    "2024": 49596,
+    "2025": 46631
+  },
+  "peak_hours": [
+    {
+      "hour": "17:00",
+      "share_pct": 6.49
+    },
+    {
+      "hour": "15:00",
+      "share_pct": 6.4
+    },
+    {
+      "hour": "18:00",
+      "share_pct": 6.36
+    }
+  ],
+  "quietest_hour": "05:00",
+  "peak_to_trough_ratio": 6.0,
+  "share_by_time_band_pct": {
+    "Afternoon (12-17)": 33.8,
+    "Evening (18-23)": 33.2,
+    "Morning (06-11)": 20.0,
+    "Night (00-05)": 13.0
+  },
+  "busiest_day_hour": "Friday 15:00",
+  "busiest_day": "Friday",
+  "quietest_day": "Sunday",
+  "late_night_weekend_share_pct": 40.4,
+  "hotspots_top10": [
+    {
+      "rank": 1,
+      "city": "Silver Spring",
+      "top_block": "8100 Blk Georgia Ave",
+      "incidents": 18851,
+      "share_pct": 3.93,
+      "top_category": "All Other Offenses",
+      "lat": 38.994998931884766,
+      "lon": -77.0250015258789
+    },
+    {
+      "rank": 2,
+      "city": "Silver Spring",
+      "top_block": "11100 Blk Veirs Mill Rd",
+      "incidents": 10487,
+      "share_pct": 2.19,
+      "top_category": "Shoplifting",
+      "lat": 39.03499984741211,
+      "lon": -77.05500030517578
+    },
+    {
+      "rank": 3,
+      "city": "Bethesda",
+      "top_block": "4800 Blk Bethesda Ave",
+      "incidents": 6370,
+      "share_pct": 1.33,
+      "top_category": "All Other Offenses",
+      "lat": 38.98500061035156,
+      "lon": -77.09500122070312
+    },
+    {
+      "rank": 4,
+      "city": "Germantown",
+      "top_block": "20900 Blk Frederick Rd",
+      "incidents": 6216,
+      "share_pct": 1.3,
+      "top_category": "Shoplifting",
+      "lat": 39.19499969482422,
+      "lon": -77.24500274658203
+    },
+    {
+      "rank": 5,
+      "city": "Gaithersburg",
+      "top_block": "700 Blk Russell Ave",
+      "incidents": 6115,
+      "share_pct": 1.27,
+      "top_category": "Shoplifting",
+      "lat": 39.154998779296875,
+      "lon": -77.20500183105469
+    },
+    {
+      "rank": 6,
+      "city": "Silver Spring",
+      "top_block": "8400 Blk Colesville Rd",
+      "incidents": 4805,
+      "share_pct": 1.0,
+      "top_category": "All Other Offenses",
+      "lat": 38.994998931884766,
+      "lon": -77.03500366210938
+    },
+    {
+      "rank": 7,
+      "city": "Gaithersburg",
+      "top_block": "300 Blk N Summit Ave",
+      "incidents": 4652,
+      "share_pct": 0.97,
+      "top_category": "All Other Offenses",
+      "lat": 39.14500045776367,
+      "lon": -77.19499969482422
+    },
+    {
+      "rank": 8,
+      "city": "Silver Spring",
+      "top_block": "11400 Blk Lockwood Dr",
+      "incidents": 4610,
+      "share_pct": 0.96,
+      "top_category": "All Other Offenses",
+      "lat": 39.04499816894531,
+      "lon": -76.98500061035156
+    },
+    {
+      "rank": 9,
+      "city": "Silver Spring",
+      "top_block": "11200 Blk New Hampshire Ave",
+      "incidents": 4487,
+      "share_pct": 0.94,
+      "top_category": "All Other Offenses",
+      "lat": 39.03499984741211,
+      "lon": -76.99500274658203
+    },
+    {
+      "rank": 10,
+      "city": "Germantown",
+      "top_block": "20000 Blk Aircraft Dr",
+      "incidents": 4478,
+      "share_pct": 0.93,
+      "top_category": "All Other Offenses",
+      "lat": 39.185001373291016,
+      "lon": -77.26499938964844
+    }
+  ],
+  "top10_cells_share_pct": 14.8,
+  "top5pct_cells_share_pct": 44.6,
+  "occupied_grid_cells": 1198,
+  "peak_hour_by_type": {
+    "Crime Against Property": "17:00",
+    "Crime Against Person": "15:00",
+    "Crime Against Society": "22:00"
+  },
+  "districts": {
+    "Silver Spring": 21.1,
+    "Wheaton": 18.5,
+    "Montgomery Village": 16.8,
+    "Bethesda": 14.4,
+    "Rockville": 13.8,
+    "Germantown": 12.6,
+    "Takoma Park": 3.0,
+    "Other": 0.0
+  },
+  "top_categories": {
+    "All Other Offenses": 24.2,
+    "Theft From Motor Vehicle": 8.2,
+    "Simple Assault": 7.4,
+    "Shoplifting": 7.0,
+    "Destruction/Damage/Vandalism of Property": 6.4
+  }
+}

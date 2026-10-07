@@ -1,0 +1,127 @@
+{
+  "pipeline": "crime-cleaning",
+  "total_seconds": 7.458,
+  "steps": [
+    {
+      "step": "standardize_columns",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.008563901999991685,
+      "note": "kept 20 cols",
+      "rows_removed": 0
+    },
+    {
+      "step": "drop_exact_duplicates",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.4889426600000206,
+      "note": "0 exact duplicates",
+      "rows_removed": 0
+    },
+    {
+      "step": "parse_datetimes",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 2.8347777120000046,
+      "note": "0 unparseable start dates",
+      "rows_removed": 0
+    },
+    {
+      "step": "drop_missing_start",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.004169509000007565,
+      "note": "0 rows without start date",
+      "rows_removed": 0
+    },
+    {
+      "step": "fix_time_order",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.010777121999922201,
+      "note": "8,456 start/end swapped",
+      "rows_removed": 0
+    },
+    {
+      "step": "clean_text_fields",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 1.8973655219999728,
+      "note": "10 text cols normalised",
+      "rows_removed": 0
+    },
+    {
+      "step": "standardize_cities",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.10005361399998947,
+      "note": "293 distinct -> 46 cities; 170 variants fixed, 77 unmatched -> NA",
+      "rows_removed": 0
+    },
+    {
+      "step": "flag_non_crimes",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.051017827000009675,
+      "note": "6,213 non-crime records flagged",
+      "rows_removed": 0
+    },
+    {
+      "step": "clean_zip_codes",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.16744288699999288,
+      "note": "19 invalid ZIPs nulled",
+      "rows_removed": 0
+    },
+    {
+      "step": "validate_coordinates",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.32318400799999836,
+      "note": "25,106 rows with invalid/missing coords",
+      "rows_removed": 0
+    },
+    {
+      "step": "coerce_numeric",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.4305011659999991,
+      "note": "",
+      "rows_removed": 0
+    },
+    {
+      "step": "add_time_features",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.32195681299992884,
+      "note": "year, month, dow, hour, time_band, report lag",
+      "rows_removed": 0
+    },
+    {
+      "step": "add_hotspot_cell",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.6859864070000867,
+      "note": "grid 0.01\u00b0",
+      "rows_removed": 0
+    },
+    {
+      "step": "optimise_dtypes",
+      "rows_in": 510898,
+      "rows_out": 510898,
+      "seconds": 0.13325214299993604,
+      "note": "memory 188 MB -> 83 MB",
+      "rows_removed": 0
+    }
+  ],
+  "source_file": "Crime.csv",
+  "rows_raw": 510898,
+  "rows_clean": 510898,
+  "date_range": [
+    "2016-07-01 00:00:00",
+    "2026-10-06 18:41:00"
+  ],
+  "pct_with_valid_coords": 95.1,
+  "pct_time_placeholder": 8.1
+}

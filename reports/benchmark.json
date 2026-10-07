@@ -1,0 +1,13 @@
+{
+  "rows_raw": 510898,
+  "rows_clean_baseline": 510898,
+  "rows_clean_pipeline": 510898,
+  "baseline_seconds": 69.95,
+  "pipeline_seconds": 8.57,
+  "cached_reload_seconds": 0.12,
+  "time_saved_pct_first_run": 87.8,
+  "time_saved_pct_cached": 99.8,
+  "memory_mb_baseline": 249.8,
+  "memory_mb_pipeline": 83.0,
+  "repeats": 3
+}
