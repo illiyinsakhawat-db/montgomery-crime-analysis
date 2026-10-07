@@ -199,4 +199,4 @@ Or open [`notebooks/montgomery_crime_eda.ipynb`](notebooks/montgomery_crime_eda.
 
 ## 👤 Author
 
-**Marriam Hussain**: [LinkedIn](https://www.linkedin.com/in/your-profile) · [Portfolio](https://your-portfolio.com)
+**Illiyin Sakhawat**: [LinkedIn](https://www.linkedin.com/in/illiyin-sakhawat)
